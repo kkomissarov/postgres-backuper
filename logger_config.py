@@ -30,7 +30,7 @@ LOGGER_CONFIG = {
             'class': 'logging.handlers.RotatingFileHandler',
             'level': 'INFO',
             'formatter': 'standard',
-            'filename': f'{os.getenv("LOG_STORAGE")}/info.log',
+            'filename': f'{os.getenv("LOG_STORAGE")}/logs/info.log',
             'maxBytes': 10485760,  # 10MB
             'backupCount': 20,
             'encoding': 'utf8'
