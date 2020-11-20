@@ -7,7 +7,7 @@ git clone git@github.com:kkomissarov/postgres-backuper.git
 
 Move to project directory:
 ```bash
-cd db-backuper
+cd postgres-backuper
 ```
 
 Create virtual environment:
