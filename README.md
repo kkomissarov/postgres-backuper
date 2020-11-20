@@ -20,6 +20,11 @@ Activate virtual environment:
 source venv/bin/activate
 ```
 
+Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
 Copy `.env` sample to `.env`. Then open `.env` in your favourite text editor 
 and configure all environment variables for your db.
 
