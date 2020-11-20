@@ -20,7 +20,7 @@ Activate virtual environment:
 source venv/bin/activate
 ```
 
-Copy `.env` sample to `.env`. Then Open `.env` in your favourite text editor 
+Copy `.env` sample to `.env`. Then open `.env` in your favourite text editor 
 and configure all environment variables for your db.
 
 ```bash
@@ -30,7 +30,7 @@ cp .sample.env .env
 
 Open crontab file:
 ```
-cron -e
+crontab -e
 ```
 
 Add new task and save file. Set full path for your python interpreter in virtual env.
