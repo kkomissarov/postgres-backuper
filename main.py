@@ -27,7 +27,7 @@ def get_full_backup_path(db_name):
 def create_backup(user, password, host, port, db_name):
     backup_path = get_full_backup_path(db_name)
     os.makedirs(os.path.dirname(backup_path), exist_ok=True)
-    os.system(f'pg_dump --dbname=postgresql://{user}:{password}@{host}:{port}/{db_name} > {backup_path}')
+    os.system(f'pg_dump -Fc --dbname=postgresql://{user}:{password}@{host}:{port}/{db_name} > {backup_path}')
     logger.info(f'New backup was created: {backup_path}')
 
 
